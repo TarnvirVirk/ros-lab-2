@@ -1,0 +1,2 @@
+[console_scripts]
+publisher_member_function = py_pubsub.publisher_member_function:main

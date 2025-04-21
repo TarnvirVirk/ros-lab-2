@@ -1,0 +1,45 @@
+[0.030s] Invoking command in '/home/virkt/CS497F/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake /home/virkt/CS497F/ros-lab-2/ros_gz_description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/home/virkt/CS497F/ros-lab-2/install/ros_gz_description
+[0.996s] -- The C compiler identification is GNU 13.3.0
+[1.455s] -- The CXX compiler identification is GNU 13.3.0
+[1.508s] -- Detecting C compiler ABI info
+[1.835s] -- Detecting C compiler ABI info - done
+[1.851s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.852s] -- Detecting C compile features
+[1.852s] -- Detecting C compile features - done
+[1.886s] -- Detecting CXX compiler ABI info
+[2.147s] -- Detecting CXX compiler ABI info - done
+[2.163s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.163s] -- Detecting CXX compile features
+[2.164s] -- Detecting CXX compile features - done
+[2.210s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.376s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.933s] -- Configuring done (2.5s)
+[3.032s] -- Generating done (0.1s)
+[3.078s] -- Build files have been written to: /home/virkt/CS497F/ros-lab-2/build/ros_gz_description
+[3.085s] Invoked command in '/home/virkt/CS497F/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake /home/virkt/CS497F/ros-lab-2/ros_gz_description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/home/virkt/CS497F/ros-lab-2/install/ros_gz_description
+[3.089s] Invoking command in '/home/virkt/CS497F/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/virkt/CS497F/ros-lab-2/build/ros_gz_description -- -j28 -l28
+[3.160s] Invoked command in '/home/virkt/CS497F/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/virkt/CS497F/ros-lab-2/build/ros_gz_description -- -j28 -l28
+[3.172s] Invoking command in '/home/virkt/CS497F/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/virkt/CS497F/ros-lab-2/build/ros_gz_description
+[3.180s] -- Install configuration: ""
+[3.180s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models
+[3.189s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models/diff_drive
+[3.194s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models/diff_drive/model.sdf
+[3.200s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models/diff_drive/model.config
+[3.210s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ros_gz_description.dsv
+[3.217s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ros_gz_description.sh
+[3.228s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ament_index/resource_index/package_run_dependencies/ros_gz_description
+[3.238s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ament_index/resource_index/parent_prefix_path/ros_gz_description
+[3.245s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ament_prefix_path.sh
+[3.251s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ament_prefix_path.dsv
+[3.258s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/path.sh
+[3.265s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/path.dsv
+[3.271s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.bash
+[3.278s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.sh
+[3.285s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.zsh
+[3.292s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.dsv
+[3.300s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.dsv
+[3.310s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ament_index/resource_index/packages/ros_gz_description
+[3.319s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/cmake/ros_gz_descriptionConfig.cmake
+[3.325s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/cmake/ros_gz_descriptionConfig-version.cmake
+[3.334s] -- Installing: /home/virkt/CS497F/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.xml
+[3.422s] Invoked command in '/home/virkt/CS497F/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/virkt/CS497F/ros-lab-2/build/ros_gz_description
