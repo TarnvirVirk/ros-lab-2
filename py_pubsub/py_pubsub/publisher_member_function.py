@@ -24,10 +24,12 @@ class MinimalPublisher(Node):
         if self.prevLeft == 0.0:
             self.prevLeft = msginfo.ranges[1]
 
-        if msginfo.ranges[0] < 5.0:
+        if msginfo.ranges[0] < 3.0:
             msg.linear.x = 0.0
             msg.angular.z = -1.0
-        elif (msginfo.ranges[2] > self.prevLeft) and (msginfo.ranges[0] > 5.0) and (msginfo.ranges[1] > 5.0):
+        elif msginfo.ranges[1] < 2.0:
+            msg.angular.z = -0.5
+        elif (msginfo.ranges[2] > self.prevLeft) and (msginfo.ranges[0] > 3.0) and (msginfo.ranges[1] > 4.0):
             msg.linear.x = 0.0
             msg.angular.z = 0.5
         else:

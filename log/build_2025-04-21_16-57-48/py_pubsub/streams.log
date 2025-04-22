@@ -1,0 +1,22 @@
+[0.546s] Invoking command in '/home/virkt/CS497F/ros-lab-2/py_pubsub': PS1=<ROS2-Jazzy>[\u@\h \W]$ PYTHONPATH=/home/virkt/CS497F/ros-lab-2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/virkt/CS497F/ros-lab-2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/virkt/CS497F/ros-lab-2/build/py_pubsub/build install --record /home/virkt/CS497F/ros-lab-2/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.676s] running egg_info
+[0.690s] writing ../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.693s] writing dependency_links to ../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.695s] writing entry points to ../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.698s] writing requirements to ../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.700s] writing top-level names to ../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.763s] reading manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.765s] adding license file 'LICENSE'
+[0.765s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.767s] running build
+[0.767s] running build_py
+[0.768s] running install
+[0.773s] running install_lib
+[0.785s] running install_data
+[0.785s] running install_egg_info
+[0.796s] removing '/home/virkt/CS497F/ros-lab-2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[0.803s] Copying ../build/py_pubsub/py_pubsub.egg-info to /home/virkt/CS497F/ros-lab-2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[0.835s] running install_scripts
+[1.007s] Installing publisher_member_function script to /home/virkt/CS497F/ros-lab-2/install/py_pubsub/lib/py_pubsub
+[1.010s] writing list of installed files to '/home/virkt/CS497F/ros-lab-2/build/py_pubsub/install.log'
+[1.029s] Invoked command in '/home/virkt/CS497F/ros-lab-2/py_pubsub' returned '0': PS1=<ROS2-Jazzy>[\u@\h \W]$ PYTHONPATH=/home/virkt/CS497F/ros-lab-2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/virkt/CS497F/ros-lab-2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/virkt/CS497F/ros-lab-2/build/py_pubsub/build install --record /home/virkt/CS497F/ros-lab-2/build/py_pubsub/install.log --single-version-externally-managed install_data
